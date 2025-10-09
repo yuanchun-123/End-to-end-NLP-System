@@ -5,7 +5,8 @@
 ### 1. Data Preparation and Initial System
 Goal: Scrape CMU and Pittsburgh public websites into raw text. Process raw text into chunks.
 
-Code Files:
+Code File: 
+- ```nlp_data.ipynb```: data scraping and chunking
 
 Inputs:
 
