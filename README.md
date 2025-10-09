@@ -3,14 +3,21 @@
 ## 1. Project Pipeline
 
 ### 1. Data Preparation and Initial System
-Goal: Scrape CMU and Pittsburgh public websites into raw text. Process raw text into chunks.
+Goal: Crawl/scrape public pages for Pittsburgh/CMU, clean HTML/PDF into plain text, and produce boundary-aware chunks (with lead/infobox micro-chunks) for indexing.
 
 Code File: 
 - ```nlp_data.ipynb```: data scraping and chunking
 
-Inputs:
+Inputs: 
+- ```seeds.txt```: root domains and high-signal pages.
+- Raw downloaded HTML/PDF files stored in data/raw/
 
 Outputs:
+- ```data/corpus/documents.jsonl```: cleaned text documents (title, URL, metadata).
+- ```data/corpus/chunks.jsonl```:  boundary-aware chunks with overlap.
+- ```data/corpus/chunks.clean.jsonl```: filtered version removing low-text and noisy pages.
+- ```data/corpus/chunks.with_dates.jsonl```: same chunks with temporal tags (for event questions).
+
 
 ### 2. RAG Models Implementation
 
