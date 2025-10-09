@@ -7,9 +7,9 @@ Goal: Scrape CMU and Pittsburgh public websites into raw text. Process raw text 
 
 Code Files:
 
-Input:
+Inputs:
 
-Output:
+Outputs:
 
 ### 2. RAG Models Implementation
 
@@ -19,12 +19,12 @@ Code Files:
 - ```implementation_evaluation.ipynb```: command-line like file for RAG pipeline, including indexing, retrieval, and answer generation
 - ```rag.py```: backend modules and methods for indexing, retrieval, and answer generation
 
-Input: 
+Inputs: 
 - ```data/corpus/chunks.with dates.jsonl```: cleaned chunks from step 1
 - ```data/test/questions.txt```: questions
 - ```data/test/reference answers.json```: answers to the questions
 
-Output: 
+Outputs: 
 - ```index/``` folder: contains pickle and json files from the indexing step
 - ```data/test/``` + ```system_output_dense.json```, ```system_output_sparse.json```, ```system_output_test.json```: outputs from testing on the test dataset for dense, sparse, and hybrid retrievers, respectively
 
@@ -34,15 +34,13 @@ Goal: Comparing sparse, dense, and hybrid pipelines; assess retrieval quality, a
 
 Code Files: Same as Step 2
 
-Input:
+Inputs:
 
 - ```data/test/system_output_dense.json```
-
 - ```data/test/system_output_sparse.json```
-
 - ```data/test/system_output_test.json```
 
-Output:
+Outputs:
 - ```index/``` folder: contains pickle and json files from the indexing step
 - ```system_outputs/system_output_1.json```
 
