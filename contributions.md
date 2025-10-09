@@ -5,6 +5,6 @@ During the entire project, our teammates have been extremely collaborative.
 Teammate dedicated to a section is responsible for both the codes and the writeup. 
 
 The generic division of labor is as follows (in alphabetical order):
-1. Data Preparation: Pei Xue, Yuanchun Ye
-2. RAG System Implementation: Yue Wu
-3. Results Evaluations: Pei Xue, Yuanchun Ye
+Pei Xue: 1) Collected, scraped and chunked text data; 2) Tested the RAG system on both test and unseen datasets; 3) Designed and implemented evaluation metrics
+Yue Wu: RAG System Implementation
+Yuanchun Ye: 1) Collected, scraped and chunked text data; 2) Tested the RAG system on both test and unseen datasets; 3) Designed and implemented evaluation metrics
