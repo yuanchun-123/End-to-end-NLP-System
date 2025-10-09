@@ -30,11 +30,16 @@ Output:
 
 ### 3. Evaluation Results \& Analysis
 
-Goal:
-
+Goal: Comparing sparse, dense, and hybrid pipelines; assess retrieval quality, answer accuracy, latency, and error modes; provide ablations and a final recommendation.
 Code Files: Same as Step 2
 
 Input:
+
+- ```data/test/system_output_dense.json```
+
+- ```data/test/system_output_sparse.json```
+
+- ```data/test/system_output_test.json```
 
 Output:
 - ```index/``` folder: contains pickle and json files from the indexing step
