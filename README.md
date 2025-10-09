@@ -31,6 +31,7 @@ Output:
 ### 3. Evaluation Results \& Analysis
 
 Goal: Comparing sparse, dense, and hybrid pipelines; assess retrieval quality, answer accuracy, latency, and error modes; provide ablations and a final recommendation.
+
 Code Files: Same as Step 2
 
 Input:
